@@ -15,6 +15,8 @@
 
   border: none;
   border-radius: 5px;
+  outline: solid 0px #93C7FE;
+  transition: outline 0.1s;
 }
 
 .collapse_btn:hover {
@@ -24,6 +26,7 @@
 
 .btn_active {
   outline: solid 3px #93C7FE;
+  transition: outline 0.1s;
 }
 
 .collapse_text {
